@@ -1,0 +1,4 @@
+[tools]
+pre-commit = "latest"
+node = "lts"
+markdownlint-cli2 = "latest"
