@@ -3,14 +3,18 @@
 ## 基本情報
 
 - **氏名**: 久松佳之
+- **メールアドレス**: karia [at] side2.net / karia2nd [at] gmail.com
+- **居住地**: 東京都
 - **最終学歴**: 東京農工大学大学院 工学府 情報工学専攻 博士前期課程 修了
 
 ### SNSアカウント
 
-- **GitHub**: [https://github.com/karia](https://github.com/karia)
-- **Zenn**: [https://zenn.dev/karia](https://zenn.dev/karia)
-- **blog**: [https://karia.hatenablog.jp/](https://karia.hatenablog.jp/)
-- **X (Twitter)**: [https://twitter.com/karia2nd](https://twitter.com/karia2nd)
+| プラットフォーム | URL |
+|---|---|
+| GitHub | [https://github.com/karia](https://github.com/karia) |
+| Zenn | [https://zenn.dev/karia](https://zenn.dev/karia) |
+| Blog | [https://karia.hatenablog.jp/](https://karia.hatenablog.jp/) |
+| X (Twitter) | [https://twitter.com/karia2nd](https://twitter.com/karia2nd) |
 
 ## 強み・アピールポイント
 
