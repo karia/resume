@@ -7,10 +7,12 @@ body {
 /* 見出しのサイズ設定 */
 h1 { font-size: 15px; }
 h2 {
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: bold;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #ccc;
 }
 
 /* 職務経歴セクション（4番目のh2）の前で改ページ */
@@ -24,7 +26,7 @@ h2:nth-of-type(5) {
 }
 h3 {
     font-size: 12px;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 8px;
 }
 
@@ -38,6 +40,12 @@ h5 { font-size: 10px; }
 /* 段落と通常テキスト */
 p, li, td {
     font-size: 10px;
+}
+
+/* 箇条書きの行間を少し広げる */
+li {
+    line-height: 1.5;
+    margin-bottom: 2px;
 }
 
 /* PDFでリンクのURLを非表示にする */
