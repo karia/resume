@@ -82,8 +82,7 @@
 - 自社運営のWebサービス「アニメイトタイムズ」のサイト名・ドメイン名変更を2ヶ月で実現
 - AWSを活用したインフラ基盤の設計・構築・運用
 
-**使用技術**: IDCF Private Cloud, AWS, Linux, MySQL, nginx, Apache, PHP,
-Ruby, Git, Mercurial 等
+**使用技術**: IDCF Private Cloud, AWS, MySQL, nginx, Apache, PHP, Ruby, Git 等
 
 ### ソフトバンクモバイル株式会社
 
@@ -101,9 +100,7 @@ Ruby, Git, Mercurial 等
 - 大規模メンテナンスの手順書作成, リハーサル, 本番実施
 - 社内外からシステム部門に対する問い合わせ対応, アラート対応, アカウント管理
 
-**使用技術**: OS (Linux, Windows Server, Solaris, HP-UX),
-DB (Oracle, MySQL, PostgreSQL), Xen, KVM, DRBD, Apache,
-Java (Tomcat, WebLogic), Xymon 等
+**使用技術**: Linux, Solaris, Oracle, MySQL, PostgreSQL, Xen, KVM, DRBD, Apache 等
 
 ## 技術スタック
 
