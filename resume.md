@@ -25,29 +25,6 @@
 - **問題解決能力**: 障害発生時の原因分析と根本解決への取り組み
 - **チーム貢献**: レトロスペクティブファシリテーション、技術勉強会開催、オンボーディング支援
 
-## 技術スタック
-
-### インフラ・クラウド
-
-- **AWS**: EC2, ECS (Fargate), RDS (Aurora MySQL), S3, CloudFront, WAF, Lambda, CloudWatch
-- **Google Cloud Platform**: BigQuery, Cloud Storage
-- **IaC**: Terraform, Ansible
-- **Monitoring**: Mackerel, NewRelic, CloudWatch, td-agent (Fluentd)
-
-### 開発・CI/CD
-
-- **CI/CD**: GitHub Actions, CircleCI
-- **Container**: Docker, AWS ECS, ECR
-- **Languages**: Python, Shell Script, Ruby, JavaScript
-- **Quality**: pre-commit, tflint, yamllint, shellcheck, ruff
-- **Package Management**: mise, bundler, npm
-
-### データ・アプリケーション
-
-- **Database**: MySQL 5.7/8.0, Aurora MySQL, Redis, Elasticsearch
-- **Data Warehouse**: Amazon Redshift, Google BigQuery
-- **Web**: Nginx, Unicorn, Sidekiq
-
 ## 職務経歴
 
 ### 株式会社つみき
@@ -128,6 +105,29 @@ Ruby, Git, Mercurial 等
 **使用技術**: OS (Linux, Windows Server, Solaris, HP-UX),
 DB (Oracle, MySQL, PostgreSQL), Xen, KVM, DRBD, Apache,
 Java (Tomcat, WebLogic), Xymon 等
+
+## 技術スタック
+
+### インフラ・クラウド
+
+- **AWS**: EC2, ECS (Fargate), RDS (Aurora MySQL), S3, CloudFront, WAF, Lambda, CloudWatch
+- **Google Cloud Platform**: BigQuery, Cloud Storage
+- **IaC**: Terraform, Ansible
+- **Monitoring**: Mackerel, NewRelic, CloudWatch, td-agent (Fluentd)
+
+### 開発・CI/CD
+
+- **CI/CD**: GitHub Actions, CircleCI
+- **Container**: Docker, AWS ECS, ECR
+- **Languages**: Python, Shell Script, Ruby, JavaScript
+- **Quality**: pre-commit, tflint, yamllint, shellcheck, ruff
+- **Package Management**: mise, bundler, npm
+
+### データ・アプリケーション
+
+- **Database**: MySQL 5.7/8.0, Aurora MySQL, Redis, Elasticsearch
+- **Data Warehouse**: Amazon Redshift, Google BigQuery
+- **Web**: Nginx, Unicorn, Sidekiq
 
 ## 対外発表・ブログ・業務外活動
 
