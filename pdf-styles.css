@@ -1,0 +1,68 @@
+/* デフォルトのフォントサイズを維持 */
+body {
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* 見出しのサイズ設定 */
+h1 { font-size: 15px; }
+h2 {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* 職務経歴セクション（4番目のh2）の前で改ページ */
+h2:nth-of-type(4) {
+    page-break-before: always;
+}
+
+/* 対外発表セクション（5番目のh2）の前で改ページ */
+h2:nth-of-type(5) {
+    page-break-before: always;
+}
+h3 {
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+/* 株式会社アニメイトラボ（2番目のh3）の前で改ページ */
+h3:nth-of-type(2) {
+    page-break-before: always;
+}
+h4 { font-size: 11px; }
+h5 { font-size: 10px; }
+
+/* 段落と通常テキスト */
+p, li, td {
+    font-size: 10px;
+}
+
+/* PDFでリンクのURLを非表示にする */
+a[href]:after,
+a[href]::after {
+    content: none !important;
+    display: none !important;
+}
+
+/* markdown-pdfが追加する可能性のあるURL表示を防ぐ */
+a:link:after,
+a:visited:after {
+    content: "" !important;
+}
+
+/* リンクのスタイル設定 */
+a {
+    color: #0066cc;
+    text-decoration: underline;
+    font-size: inherit;
+}
+
+/* 印刷時のリンク表示も制御 */
+@media print {
+    a[href]:after {
+        content: none !important;
+    }
+}
