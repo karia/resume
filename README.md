@@ -3,7 +3,14 @@
 ## 基本情報
 
 - **氏名**: 久松佳之
+- **最終学歴**: 東京農工大学大学院 工学府 情報工学専攻 博士前期課程 修了
+
+### SNSアカウント
+
 - **GitHub**: [https://github.com/karia](https://github.com/karia)
+- **Zenn**: [https://zenn.dev/karia](https://zenn.dev/karia)
+- **blog**: [https://karia.hatenablog.jp/](https://karia.hatenablog.jp/)
+- **X (Twitter)**: [https://twitter.com/karia2nd](https://twitter.com/karia2nd)
 
 ## 強み・アピールポイント
 
@@ -118,6 +125,19 @@ Ruby, Git, Mercurial 等
 DB (Oracle, MySQL, PostgreSQL), Xen, KVM, DRBD, Apache,
 Java (Tomcat, WebLogic), Xymon 等
 
+## 対外発表・ブログ・業務外活動
+
+- [スパイクアクセスに立ち向かうFilmarksの高トラフィック対策 - SRE Magazine 009号](https://sre-magazine.net/articles/9/karia/)
+  (2025/08/01)
+- [映画レビューアプリ「Filmarks」へのImageFlux導入によるメリットと課題 - Imageflux Meetup #3](https://speakerdeck.com/karia/filmarkshefalseimagefluxdao-ru-niyorumeritutotoke-ti)
+  (2019/03/15)
+- [ISUCON7 予選参加 チーム成績43位](https://karia.hatenablog.jp/entry/2017/10/23/030749) (2017/10/22)
+
+## 資格
+
+- ORACLE MASTER Bronze Oracle Database 11g (2013年03月合格)
+- ネットワークスペシャリスト試験 (2009年11月合格)
+
 ---
 
-最終更新日: 2025年9月22日
+最終更新日: 2025年9月24日
