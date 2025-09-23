@@ -15,13 +15,13 @@ h2 {
     border-bottom: 1px solid #ccc;
 }
 
-/* 職務経歴セクション（4番目のh2）の前で改ページ */
-h2:nth-of-type(4) {
+/* 職務経歴セクション（3番目のh2）の前で改ページ */
+h2:nth-of-type(3) {
     page-break-before: always;
 }
 
-/* 対外発表セクション（5番目のh2）の前で改ページ */
-h2:nth-of-type(5) {
+/* 技術スタックセクション（4番目のh2）の前で改ページ */
+h2:nth-of-type(4) {
     page-break-before: always;
 }
 h3 {
@@ -30,8 +30,8 @@ h3 {
     margin-bottom: 8px;
 }
 
-/* 株式会社アニメイトラボ（2番目のh3）の前で改ページ */
-h3:nth-of-type(2) {
+/* 株式会社アニメイトラボ（3番目のh3）の前で改ページ */
+h3:nth-of-type(3) {
     page-break-before: always;
 }
 h4 { font-size: 11px; }
