@@ -5,6 +5,38 @@
 - **氏名**: 久松佳之
 - **GitHub**: [https://github.com/karia](https://github.com/karia)
 
+## 強み・アピールポイント
+
+- **フルスタックなインフラ知識**: ネットワーク層からアプリケーション層まで幅広い実装経験
+- **長期的な技術選定能力**: 7年間のサービス成長を支える技術選定と移行戦略の実績
+- **IaCの実践経験**: Terraformを活用した大規模インフラのコード化
+- **セキュリティ対応力**: DDoS攻撃やセキュリティインシデントへの迅速な対応経験
+- **問題解決能力**: 障害発生時の原因分析と根本解決への取り組み
+- **チーム貢献**: レトロスペクティブファシリテーション、技術勉強会開催、オンボーディング支援
+
+## 技術スタック
+
+### インフラ・クラウド
+
+- **AWS**: EC2, ECS (Fargate), RDS (Aurora MySQL), S3, CloudFront, WAF, Lambda, CloudWatch
+- **Google Cloud Platform**: BigQuery, Cloud Storage
+- **IaC**: Terraform, Ansible
+- **Monitoring**: Mackerel, NewRelic, CloudWatch, td-agent (Fluentd)
+
+### 開発・CI/CD
+
+- **CI/CD**: GitHub Actions, CircleCI
+- **Container**: Docker, AWS ECS, ECR
+- **Languages**: Python, Shell Script, Ruby, JavaScript
+- **Quality**: pre-commit, tflint, yamllint, shellcheck, ruff
+- **Package Management**: mise, bundler, npm
+
+### データ・アプリケーション
+
+- **Database**: MySQL 5.7/8.0, Aurora MySQL, Redis, Elasticsearch
+- **Data Warehouse**: Amazon Redshift, Google BigQuery
+- **Web**: Nginx, Unicorn, Sidekiq
+
 ## 職務経歴
 
 ### 株式会社つみき
@@ -47,38 +79,6 @@ AWSとGoogle Cloudを活用した大規模サービスのインフラ設計・�
 - 技術勉強会開催、新メンバーオンボーディング支援
 
 **使用技術**: ECS, Aurora MySQL, BigQuery, Claude Code, pre-commit, mise
-
-## 技術スタック
-
-### インフラ・クラウド
-
-- **AWS**: EC2, ECS (Fargate), RDS (Aurora MySQL), S3, CloudFront, WAF, Lambda, CloudWatch
-- **Google Cloud Platform**: BigQuery, Cloud Storage
-- **IaC**: Terraform, Ansible
-- **Monitoring**: Mackerel, NewRelic, CloudWatch, td-agent (Fluentd)
-
-### 開発・CI/CD
-
-- **CI/CD**: GitHub Actions, CircleCI
-- **Container**: Docker, AWS ECS, ECR
-- **Languages**: Python, Shell Script, Ruby, JavaScript
-- **Quality**: pre-commit, tflint, yamllint, shellcheck, ruff
-- **Package Management**: mise, bundler, npm
-
-### データ・アプリケーション
-
-- **Database**: MySQL 5.7/8.0, Aurora MySQL, Redis, Elasticsearch
-- **Data Warehouse**: Amazon Redshift, Google BigQuery
-- **Web**: Nginx, Unicorn, Sidekiq
-
-## 強み・アピールポイント
-
-- **フルスタックなインフラ知識**: ネットワーク層からアプリケーション層まで幅広い実装経験
-- **長期的な技術選定能力**: 7年間のサービス成長を支える技術選定と移行戦略の実績
-- **IaCの実践経験**: Terraformを活用した大規模インフラのコード化
-- **セキュリティ対応力**: DDoS攻撃やセキュリティインシデントへの迅速な対応経験
-- **問題解決能力**: 障害発生時の原因分析と根本解決への取り組み
-- **チーム貢献**: レトロスペクティブファシリテーション、技術勉強会開催、オンボーディング支援
 
 ### 株式会社アニメイトラボ
 
