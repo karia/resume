@@ -1,0 +1,5 @@
+{
+  "cssPath": "./pdf-styles.css",
+  "highlightCssPath": "",
+  "includeDefaultStyles": true
+}
