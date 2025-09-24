@@ -16,14 +16,19 @@
 | Blog | [https://karia.hatenablog.jp/](https://karia.hatenablog.jp/) |
 | X (Twitter) | [https://twitter.com/karia2nd](https://twitter.com/karia2nd) |
 
-## 強み・アピールポイント
+## 概要
 
-- **フルスタックなインフラ知識**: ネットワーク層からアプリケーション層まで幅広い実装経験
-- **長期的な技術選定能力**: 7年間のサービス成長を支える技術選定と移行戦略の実績
-- **IaCの実践経験**: Terraformを活用した大規模インフラのコード化
-- **セキュリティ対応力**: DDoS攻撃やセキュリティインシデントへの迅速な対応経験
-- **問題解決能力**: 障害発生時の原因分析と根本解決への取り組み
-- **チーム貢献**: レトロスペクティブファシリテーション、技術勉強会開催、オンボーディング支援
+私は約15年間にわたり、インフラエンジニアとして通信業界・小売業界・エンタメ業界での経験を積んできました。特に、直近8年間はAWSおよびGoogle Cloudを活用した大規模クラウドインフラ・ミドルウェアの設計・構築・運用に従事し、サービスの信頼性向上と効率化に寄与しました。
+
+- **インフラエンジニア（SRE・クラウドエンジニア）としての経験**
+  - AWSインフラ（特にEC2, ECS, Fargate, Aurora MySQL, Lambda など）の設計・構築・運用・コスト最適化
+  - Docker, nginx, MySQL, Elasticsearchなどのミドルウェアの構築・運用
+  - Terraform, Ansibleを用いたIaC化
+  - GitHub Actions, CircleCIを用いたCI/CDパイプラインの構築・改善・運用自動化
+  - 監視設計・セキュリティ対応・アラート一次対応からポストモーテム実施までの一連のインシデント対応
+- **組織・チームマネジメントの経験**
+  - レトロスペクティブのファシリテーション、新メンバーのオンボーディング整備など、チーム全体の成長と効率化に寄与
+  - エンジニアリングマネージャーとして10人程度のチームをリードした経験（1年弱）
 
 ## 職務経歴
 
@@ -42,30 +47,33 @@
 
 ##### インフラモダナイゼーション・基盤構築
 
-- RDSからAuroraへの移行計画策定と実行
-- Aurora MySQL メジャーバージョンアップに伴う移行計画策定と実行
-- Auto Scalingによる負荷対応自動化
+- RDSからAurora MySQLへの移行 / Aurora MySQL メジャーバージョンアップに伴う移行計画策定と実行
+- 画像配信を外部SaaS（ImageFlux）に移行し、EC2負荷軽減・WebP対応・マルチデバイス対応を同時に実現
+- キャパシティプランニング, EC2 Auto Scalingによる負荷調整自動化
+- 年間AWS予算策定、および Reserved Instances, Saving Plans, Spot Instance を利用したコスト最適化
+- Lambda関数による社外からのファイル授受システム構築
+- RedshiftからBigQueryへのデータウェアハウス移行設計
+- 運用効率化・トイルの排除（リリースプロセス自動化、EC2定期更新プロセス改善など）
 - Terraformによる大規模インフラのIaC化推進
-- GitHub ActionsによるCI/CDパイプライン設計・実装
-
-**使用技術**: Terraform, AWS, GCP, GitHub Actions, Aurora MySQL, Fluentd, Docker
+- CI/CDパイプライン設計・実装・改善
 
 ##### セキュリティ・モニタリング改善
 
-- DDoS攻撃対応とAWS WAFルール設計による不正アクセス対策
-- 包括的監視システム構築（Mackerel、CloudWatch、NewRelic連携）
+- AWSサービス (WAF等)・ミドルウェアを活用したDDoS攻撃・不正アクセス対策
+- Mackerel、CloudWatch、NewRelicを活用した監視設計
+- Twilioを活用した低コストな監視アラート通知システム構築
 - インシデント対応手順整備、ポストモーテム文化定着
 
-**使用技術**: AWS WAF, Mackerel, CloudWatch, NewRelic
+##### 開発チーム支援
 
-##### 開発効率化・チーム支援
+- AI開発エージェント (Devin, Claude Code) のPoC実施、チームへの導入支援
+- スプリントレトロスペクティブのファシリテーション改善、オンボーディングプロセス整備
 
-- リリースプロセス自動化、EC2定期更新プロセス改善
-- ECS Fargate/Spotを活用したコンテナ基盤最適化
-- AI開発ツール（Devin, Claude Code）導入による開発効率化のPoC実施
-- スプリントレトロスペクティブのファシリテーション改善、新メンバーオンボーディング支援
+#### 技術スタック
 
-**使用技術**: ECS, BigQuery, Claude Code, pre-commit, mise, Ansible, git-pr-release
+- クラウドサービス: AWS (EC2, ECS, Aurora MySQL, CloudFront, etc), GitHub Actions
+- ミドルウェア・ツール: nginx, Elasticsearch, Redis, Docker, Terraform
+- 言語: Ruby, Python, Shell Script, JavaScript
 
 ### 株式会社アニメイトラボ
 
