@@ -116,6 +116,8 @@
 
 ## 技術スタック
 
+この項目はClaude Codeにより自動生成しております。
+
 ### インフラ・クラウド
 
 - **AWS**: EC2, ECS (Fargate), RDS (Aurora MySQL), S3, CloudFront, WAF, Lambda, CloudWatch
@@ -149,7 +151,8 @@
 
 - ORACLE MASTER Bronze Oracle Database 11g (2013年3月合格)
 - ネットワークスペシャリスト試験 (2009年11月合格)
+- 普通自動車運転免許 (2003年9月取得)
 
 ---
 
-最終更新日: 2025年9月24日
+最終更新日: 2025年9月25日
