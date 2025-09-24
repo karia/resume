@@ -116,6 +116,8 @@
 
 ## 技術スタック
 
+この項目はClaude Codeにより自動生成しております。
+
 ### インフラ・クラウド
 
 - **AWS**: EC2, ECS (Fargate), RDS (Aurora MySQL), S3, CloudFront, WAF, Lambda, CloudWatch
