@@ -42,7 +42,7 @@
 
 #### 業務内容
 
-映画・ドラマレビューサービス「Filmarks」（月間700万UU, 1.36億PV ※2022年8月現在。参考：[PR TIMES](https://prtimes.jp/main/html/rd/p/000000280.000008641.html)）のインフラエンジニアとして、AWSおよびGoogle Cloudのインフラ基盤構築・運用およびサービスの信頼性向上に従事。
+映画・ドラマ・アニメのレビューアプリ「Filmarks」（月間700万UU, 1.36億PV ※2022年8月現在。参考：[PR TIMES](https://prtimes.jp/main/html/rd/p/000000280.000008641.html)）のインフラエンジニアとして、AWSおよびGoogle Cloudのインフラ基盤構築・運用およびサービスの信頼性向上に従事。
 
 #### 主な実績と取り組み
 
