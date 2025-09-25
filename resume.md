@@ -51,7 +51,7 @@
 - RDSからAurora MySQLへの移行 / Aurora MySQL メジャーバージョンアップに伴う移行計画策定と実行
 - 画像配信を外部SaaS（ImageFlux）に移行し、レスポンス高速化・WebP対応・マルチデバイス最適化を実現
 - キャパシティプランニング, EC2 Auto Scalingによる負荷調整自動化
-- 年間AWS予算策定、および Reserved Instances, Saving Plans, Spot Instance を利用したコスト最適化
+- 年間AWS予算策定、および Saving Plans, Spot Instance を利用したコスト最適化
 - RedshiftからBigQueryへのデータウェアハウス移行設計
 
 ##### 自動化・コード化
