@@ -39,7 +39,7 @@ p, li, td {
 
 /* 箇条書きの行間を少し広げる */
 li {
-    line-height: 1.5;
+    line-height: 1.4;
     margin-bottom: 2px;
 }
 
