@@ -50,9 +50,11 @@
 
 - RDSからAurora MySQLへの移行 / Aurora MySQL メジャーバージョンアップに伴う移行計画策定と実行
 - 画像配信を外部SaaS（ImageFlux）に移行し、レスポンス高速化・WebP対応・マルチデバイス最適化を実現
-- キャパシティプランニング, EC2 Auto Scalingによる負荷調整自動化
-- 年間AWS予算策定、および Saving Plans, Spot Instance を利用したコスト最適化
+- push通知送信や地上波テレビ番組放送によるトラフィック急増の事前対応・事後検証
+- EC2 Auto Scalingによる負荷調整自動化、定期的に「パフォーマンス確認会」を開催しボトルネック改善
+- 年間AWS予算策定、および Saving Plans, Spot Instance, Fargate Spot を利用したコスト最適化
 - RedshiftからBigQueryへのデータウェアハウス移行設計
+- Elasticsearchクラスタの運用、スコア調整、安定性向上
 
 ##### 自動化・コード化
 
@@ -71,14 +73,14 @@
 ##### 開発チーム支援
 
 - AI開発エージェント (Devin, Claude Code) のPoC実施、チームへの導入支援
-- スプリントレトロスペクティブのファシリテーション改善、オンボーディングプロセス整備
+- 開発チーム全体（Max 20名程度）で開催するスプリントレトロスペクティブのファシリテーション改善、オンボーディングプロセス整備
 - インフラチーム増員に伴う業務委託メンバーのスキル基準を策定し4名を受け入れ、レビューガイドライン策定などチーム内プロセスを整備
 
 #### 技術スタック
 
-- クラウドサービス: AWS (EC2, ECS, Aurora MySQL, CloudFront, etc), GitHub Actions
-- ミドルウェア・ツール: nginx, Elasticsearch, Redis, Docker, Terraform
-- 言語: Ruby, Python, Shell Script, JavaScript
+- クラウドサービス: AWS (EC2, ECS, Aurora MySQL, CloudFront, etc), GitHub Actions, CircleCI, etc
+- ミドルウェア・ツール: nginx, Elasticsearch, Redis, Docker, Terraform, etc
+- 言語: Ruby, Python, Shell Script, Node.js, etc
 
 ### 株式会社アニメイトラボ
 
