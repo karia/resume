@@ -30,7 +30,7 @@ jobs:
 
       - name: Generate PDF
         run: |
-          npx md-to-pdf resume.md --config-file .md-to-pdf.json
+          npx md-to-pdf resume.md --config-file .md-to-pdf.json --document-title "職務経歴書"
 
       - name: Upload PDF as artifact
         if: github.ref != 'refs/heads/main'
