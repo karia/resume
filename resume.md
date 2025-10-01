@@ -125,9 +125,10 @@
 
 ### クラウド・SaaS
 
-- **AWS (Compute)**: EC2, ECS (Fargate), Lambda
-- **AWS (Database & Storage)**: RDS (Aurora), DynamoDB, Redshift, ElastiCache, S3
-- **AWS (Networking & Others)**: CloudFront, Route53, API Gateway, WAF, CloudWatch, DMS, SES
+- **AWS**
+  - **Compute**: EC2, ECS (Fargate), Lambda
+  - **Database & Storage**: RDS (Aurora), DynamoDB, Redshift, ElastiCache, S3, OpenSearch Service, Athena
+  - **Networking & Others**: CloudFront, Route53, API Gateway, WAF, CloudWatch, DMS, SES, SNS, EventBridge
 - **Google Cloud**: BigQuery, Cloud Storage, Cloud Run Functions
 - **CI/CD**: GitHub Actions, CircleCI, AWS CodeDeploy
 - **モニタリング**: Mackerel, NewRelic, Bugsnag
@@ -139,7 +140,7 @@
 - **フレームワーク**: Ruby on Rails
 - **IaC**: Terraform, Ansible
 - **データベース**: MySQL, Redis, memcached, Elasticsearch
-- **ミドルウェア**: Docker, Nginx, td-agent (Fluentd)
+- **ミドルウェア・ツール**: Docker, Nginx, td-agent (Fluentd), ecspresso, lambroll, Locust
 
 ## 対外発表・ブログ・業務外活動
 
