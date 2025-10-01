@@ -1,0 +1,31 @@
+name: Create Release with PDF
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+
+      - name: Generate PDF
+        run: |
+          npx markdown-pdf --css-path pdf-styles.css resume.md
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: resume.pdf
+          generate_release_notes: true
