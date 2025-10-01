@@ -79,9 +79,9 @@
 
 #### 技術スタック
 
-- クラウドサービス: AWS (EC2, ECS, Fargate, Aurora MySQL, CloudFront, ElastiCache, SES, etc), GitHub Actions, CircleCI, etc
-- ミドルウェア・ツール: nginx, Unicorn, Sidekiq, Elasticsearch, Redis, memcached, Docker, Terraform, Ansible, ecspresso, etc
-- 言語: Ruby, Python, Shell Script, Node.js, etc
+- **クラウドサービス**: AWS (EC2, ECS, Fargate, Aurora MySQL, CloudFront, ElastiCache, SES, etc), GitHub Actions, CircleCI, etc
+- **ミドルウェア・ツール**: nginx, Unicorn, Sidekiq, Elasticsearch, Redis, memcached, Docker, Terraform, Ansible, ecspresso, etc
+- **言語**: Ruby, Python, Shell Script, Node.js, etc
 
 ### 株式会社アニメイトラボ
 
