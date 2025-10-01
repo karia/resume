@@ -123,28 +123,21 @@
 
 ## 技術スタック
 
-この項目はClaude Codeにより自動生成しております。
+### クラウド・SaaS
 
-### インフラ・クラウド
+- **AWS**: EC2, ECS (Fargate), RDS (Aurora MySQL), S3, CloudFront, WAF, Lambda, CloudWatch, API Gateway, DynamoDB, Redshift
+- **Google Cloud**: BigQuery, Cloud Storage, Cloud Run Functions
+- **CI/CD**: GitHub Actions, CircleCI, AWS CodeDeploy, ecspresso
+- **モニタリング**: Mackerel, NewRelic, Bugsnag
+- **その他SaaS**: ImageFlux, Twilio, Docker Hub
 
-- **AWS**: EC2, ECS (Fargate), RDS (Aurora MySQL), S3, CloudFront, WAF, Lambda, CloudWatch
-- **Google Cloud Platform**: BigQuery, Cloud Storage
+### 言語・ミドルウェア
+
+- **言語**: Python, Shell Script, Ruby
+- **フレームワーク**: Ruby on Rails
 - **IaC**: Terraform, Ansible
-- **Monitoring**: Mackerel, NewRelic, CloudWatch, td-agent (Fluentd)
-
-### 開発・CI/CD
-
-- **CI/CD**: GitHub Actions, CircleCI
-- **Container**: Docker, AWS ECS, ECR
-- **Languages**: Python, Shell Script, Ruby, JavaScript
-- **Quality**: pre-commit, tflint, yamllint, shellcheck, ruff
-- **Package Management**: mise, bundler, npm
-
-### データ・アプリケーション
-
-- **Database**: MySQL 5.7/8.0, Aurora MySQL, Redis, Elasticsearch
-- **Data Warehouse**: Amazon Redshift, Google BigQuery
-- **Web**: Nginx, Unicorn, Sidekiq
+- **データベース**: MySQL, Redis, memcached, Elasticsearch
+- **ミドルウェア**: Docker, Nginx, td-agent (Fluentd)
 
 ## 対外発表・ブログ・業務外活動
 
@@ -162,4 +155,4 @@
 
 ---
 
-最終更新日: 2025年10月01日
+2025年10月現在
