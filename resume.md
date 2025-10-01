@@ -79,8 +79,8 @@
 
 #### 技術スタック
 
-- クラウドサービス: AWS (EC2, ECS, Aurora MySQL, CloudFront, etc), GitHub Actions, CircleCI, etc
-- ミドルウェア・ツール: nginx, Elasticsearch, Redis, Docker, Terraform, etc
+- クラウドサービス: AWS (EC2, ECS, Fargate, Aurora MySQL, CloudFront, ElastiCache, SES, etc), GitHub Actions, CircleCI, etc
+- ミドルウェア・ツール: nginx, Unicorn, Sidekiq, Elasticsearch, Redis, memcached, Docker, Terraform, Ansible, ecspresso, etc
 - 言語: Ruby, Python, Shell Script, Node.js, etc
 
 ### 株式会社アニメイトラボ
@@ -125,15 +125,15 @@
 
 ### クラウド・SaaS
 
-- **AWS**: EC2, ECS (Fargate), RDS (Aurora MySQL), S3, CloudFront, WAF, Lambda, CloudWatch, API Gateway, DynamoDB, Redshift
+- **AWS**: EC2, ECS (Fargate), RDS (Aurora), S3, CloudFront, WAF, Lambda, CloudWatch, API Gateway, DynamoDB, Redshift, DMS, ElastiCache, SES, Route53, etc
 - **Google Cloud**: BigQuery, Cloud Storage, Cloud Run Functions
-- **CI/CD**: GitHub Actions, CircleCI, AWS CodeDeploy, ecspresso
+- **CI/CD**: GitHub Actions, CircleCI, AWS CodeDeploy
 - **モニタリング**: Mackerel, NewRelic, Bugsnag
 - **その他SaaS**: ImageFlux, Twilio, Docker Hub
 
 ### 言語・ミドルウェア
 
-- **言語**: Python, Shell Script, Ruby
+- **言語**: Python, Shell Script, Ruby, PHP
 - **フレームワーク**: Ruby on Rails
 - **IaC**: Terraform, Ansible
 - **データベース**: MySQL, Redis, memcached, Elasticsearch
