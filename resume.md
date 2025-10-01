@@ -125,7 +125,9 @@
 
 ### クラウド・SaaS
 
-- **AWS**: EC2, ECS (Fargate), RDS (Aurora), S3, CloudFront, WAF, Lambda, CloudWatch, API Gateway, DynamoDB, Redshift, DMS, ElastiCache, SES, Route53, etc
+- **AWS (Compute)**: EC2, ECS (Fargate), Lambda
+- **AWS (Database & Storage)**: RDS (Aurora), DynamoDB, Redshift, ElastiCache, S3
+- **AWS (Networking & Others)**: CloudFront, Route53, API Gateway, WAF, CloudWatch, DMS, SES
 - **Google Cloud**: BigQuery, Cloud Storage, Cloud Run Functions
 - **CI/CD**: GitHub Actions, CircleCI, AWS CodeDeploy
 - **モニタリング**: Mackerel, NewRelic, Bugsnag
