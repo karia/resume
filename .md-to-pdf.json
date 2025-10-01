@@ -1,7 +1,8 @@
 {
   "pdf_options": {
     "format": "A4",
-    "margin": "20mm"
+    "margin": "10mm",
+    "scale": 1.1
   },
   "stylesheet": "pdf-styles.css",
   "launch_options": {
