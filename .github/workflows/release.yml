@@ -45,10 +45,6 @@ jobs:
         run: |
           VERSION=$(date +'%Y.%m.%d')-${{ github.run_number }}
           echo "tag=v${VERSION}" >> $GITHUB_OUTPUT
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git tag "v${VERSION}"
-          git push origin "v${VERSION}"
 
       - name: Create Release
         if: github.ref == 'refs/heads/main'
