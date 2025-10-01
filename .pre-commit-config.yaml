@@ -13,3 +13,10 @@ repos:
     rev: v0.18.1
     hooks:
     - id: markdownlint-cli2
+  - repo: local
+    hooks:
+    - id: pinact
+      name: pinact
+      entry: pinact run
+      language: system
+      files: '\.github/workflows/.*\.ya?ml$'
