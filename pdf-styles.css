@@ -12,7 +12,7 @@ h2 {
     margin-bottom: 10px;
     font-weight: bold;
     padding-bottom: 2px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 0.5px solid #ccc;
 }
 
 /* 職務経歴セクション（3番目のh2）の前で改ページ */
@@ -59,7 +59,7 @@ a:visited:after {
 /* リンクのスタイル設定 */
 a {
     color: #0066cc;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: inherit;
 }
 
@@ -80,7 +80,7 @@ table {
 /* 表のセルに罫線を追加 */
 table th,
 table td {
-    border: 1px solid #ddd;
+    border: 0.5px solid #ddd;
     padding: 2px 4px;
     line-height: 1.2;
 }
