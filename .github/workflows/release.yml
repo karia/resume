@@ -2,8 +2,7 @@ name: Create Release with PDF
 
 on:
   push:
-    tags:
-      - 'v*'
+  workflow_dispatch:
 
 jobs:
   release:
