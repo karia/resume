@@ -2,8 +2,8 @@ name: Create Release with PDF
 
 on:
   push:
-    branches:
-      - main
+  #    branches:
+  #      - main
   workflow_dispatch:
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
+          node-version: "lts/*"
 
       - name: Generate PDF
         run: |
