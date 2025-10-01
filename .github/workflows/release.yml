@@ -2,10 +2,12 @@ name: Create Release with PDF
 
 on:
   push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
-  release:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -13,6 +15,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -23,8 +27,28 @@ jobs:
         run: |
           npx md-to-pdf resume.md --config-file .md-to-pdf.json
 
+      - name: Upload PDF as artifact
+        if: github.ref != 'refs/heads/main'
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdf
+          path: resume.pdf
+
+      - name: Generate version tag
+        if: github.ref == 'refs/heads/main'
+        id: version
+        run: |
+          VERSION=$(date +'%Y.%m.%d')-${{ github.run_number }}
+          echo "tag=v${VERSION}" >> $GITHUB_OUTPUT
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag "v${VERSION}"
+          git push origin "v${VERSION}"
+
       - name: Create Release
+        if: github.ref == 'refs/heads/main'
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ steps.version.outputs.tag }}
           files: resume.pdf
           generate_release_notes: true
