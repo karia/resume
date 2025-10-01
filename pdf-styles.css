@@ -33,8 +33,8 @@ h4 { font-size: 11px; }
 h5 { font-size: 10px; }
 
 /* 段落と通常テキスト */
-p, li, td {
-    font-size: 9px;
+p, li {
+    font-size: 10px;
 }
 
 /* 箇条書きの行間を少し広げる */
