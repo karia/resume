@@ -21,7 +21,7 @@ jobs:
 
       - name: Generate PDF
         run: |
-          npx markdown-pdf --css-path pdf-styles.css resume.md
+          npx md-to-pdf resume.md --config-file .md-to-pdf.json
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
