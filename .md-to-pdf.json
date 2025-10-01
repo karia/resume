@@ -3,5 +3,8 @@
     "format": "A4",
     "margin": "20mm"
   },
-  "stylesheet": "pdf-styles.css"
+  "stylesheet": "pdf-styles.css",
+  "launch_options": {
+    "args": ["--no-sandbox", "--disable-setuid-sandbox"]
+  }
 }
