@@ -87,7 +87,8 @@
 
 - **クラウドサービス**: AWS (EC2, ECS, Fargate, Aurora MySQL, CloudFront, ElastiCache, SES, etc), GitHub Actions, CircleCI, etc
 - **ミドルウェア・ツール**: nginx, Unicorn, Sidekiq, Elasticsearch, Redis, memcached, Docker, Terraform, Ansible, ecspresso, etc
-- **言語**: Ruby, Python, Shell Script, Node.js, etc
+- **言語**: Ruby, Python, Shell Script, Node.js
+- **情報共有**: GitHub, esa, Notion, Slack, Google Docs, etc
 
 ### 株式会社アニメイトラボ
 
@@ -145,7 +146,7 @@
 - **言語**: Python, Shell Script, Ruby, PHP
 - **フレームワーク**: Ruby on Rails
 - **IaC**: Terraform, Ansible
-- **データベース**: MySQL, Redis, memcached, Elasticsearch
+- **データベース**: MySQL, PostgreSQL, Oracle, Redis, memcached, Elasticsearch
 - **ミドルウェア・ツール**: Docker, Nginx, td-agent (Fluentd), ecspresso, lambroll, Locust
 
 ## 対外発表・ブログ・業務外活動
