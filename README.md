@@ -6,7 +6,11 @@
 
 職務経歴書の本体は [resume.md](./resume.md) にあります。
 
+PDF版は [releases](https://github.com/karia/resume/releases) からダウンロードできます。
+
 ## PDF生成
+
+GitHub Actionsを利用してPDFを自動生成していますが、ローカル環境でも生成可能です。
 
 ### Mac環境
 
@@ -30,9 +34,3 @@ npx md-to-pdf resume.md --config-file .md-to-pdf.json --document-title "職務�
 ```
 
 いずれのコマンドを実行しても、`resume.pdf` が生成されます。
-
-## ファイル構成
-
-- `resume.md` - 職務経歴書本体
-- `pdf-styles.css` - PDF生成用のスタイルファイル
-- `.markdown-pdf` - markdown-pdfの設定ファイル
