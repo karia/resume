@@ -168,3 +168,5 @@
 ---
 
 2025年10月現在
+
+このドキュメントの最新版は [https://github.com/karia/resume](https://github.com/karia/resume) にあります。
