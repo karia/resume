@@ -20,10 +20,6 @@ h2:nth-of-type(3) {
     page-break-before: always;
 }
 
-/* 技術スタックセクション（4番目のh2）の前で改ページ */
-h2:nth-of-type(4) {
-    page-break-before: always;
-}
 h3 {
     font-size: 12px;
     margin-top: 20px;
